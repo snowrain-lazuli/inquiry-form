@@ -1,0 +1,125 @@
+body {
+    background-color: #FFFFFF;
+}
+
+.header {
+    background: #FFFFFF;
+    border: 1px solid #E0DFDE;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+    text-align: center;
+}
+
+.header__logo {
+    color: #8B7969;
+    font-family: Inika;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52.12px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.header-nav__item {
+    float: right;
+}
+
+.header-nav__button {
+    background-color: #F0F0F099;
+    border: 1px solid;
+    color: #D9C6B5;
+    width: 100px;
+    height: 34px;
+    top: 33px;
+    left: 1316px;
+}
+
+.confirm__heading {
+    text-align: center;
+    color: #8B7969;
+}
+
+.contact-form__heading {
+    margin-left: auto;
+    margin-right: auto;
+    width: 130px;
+    height: 46px;
+    color: #8B7969;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.confirm-table {
+    border: 1px solid #ddd;
+}
+
+.confirm-table__inner {
+    width: 100%;
+}
+
+.confirm-table__header {
+    padding: 15px;
+    width: 20%;
+    border-bottom: 1px solid #ddd;
+    background-color: #D9C6B5;
+    color: #fff;
+    font-weight: bold;
+}
+
+.confirm-table__text {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.confirm-table__text input {
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #8B7969;
+    float: left;
+}
+
+input[name="last_name"],
+input[name="first_name"]{
+    width: 10%;
+}
+
+.confirm-table__row:last-child .confirm-table__header,
+.confirm-table__row:last-child .confirm-table__text {
+    border-bottom-width: 0;
+}
+
+.form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 10%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #82756A;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form__button-modify {
+    padding: 10px;
+    width: 10%;
+    height: 50px;
+    border: none;
+    text-decoration: underline;
+    background: #fff;
+    color: #8B7969;
+    cursor: pointer;
+}
