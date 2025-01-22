@@ -1,0 +1,90 @@
+html {
+    height: 100%;
+}
+
+body,
+main {
+    height: 100%;
+    margin: 0;
+}
+
+.thanks__content{
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+}
+
+.baseBox {
+    /* --- 親BOXの定義 --------------------------------------------*/
+    display: inline-block;
+    /* インラインブロック化 */
+    position: relative;
+    /* 親要素               */
+    overflow: hidden;
+    /* はみ出しは非表示     */
+    margin: 0 auto;
+    /* BOXの位置(中央寄せ)  */
+    width: 100%;
+    /* BOXの横幅            */
+    height: 100%;
+    /* BOXの高さ            */
+    background: #fff;
+    /* BOXの背景色          */
+}
+
+/* --- 前面文字の定義 -----------------------------------------*/
+.baseBox .frontStr {
+    display: inline-block;
+    /* インラインブロック化 */
+    position: absolute;
+    /* 親要素からの相対位置 */
+    padding: 20px;
+    /* BOX内の余白          */
+    border: 2px solid #999;
+    /* 前景文字のサイズ     */
+    font-weight: bold;
+    /* 太字                 */
+    top: 0;
+    /* 親要素にサイズにする */
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* --- 背景透かし文字の定義 -----------------------------------*/
+.baseBox .backStr {
+    position: absolute;
+    /* 親要素からの相対位置 */
+    display: inline-block;
+    /* インラインブロック化 */
+    white-space: nowrap;
+    /* 折り返ししない       */
+    font-size: 100px;
+    /* 背景透かし文字サイズ */
+    font-weight: bold;
+    /* 太字                 */
+    color: #8B79690D;
+    /* 背景透かし文字色     */
+    /* 中心寄せ＆角度       */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.thanks__heading {
+text-align: center;
+margin-top: 25%;
+color: #82756A;
+}
+
+.thanks__home--item{
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+    background: #82756A;
+    color: #fff;
+    cursor: pointer;
+    text-decoration:none;
+}
